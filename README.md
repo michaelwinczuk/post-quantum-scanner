@@ -36,7 +36,7 @@ Structured JSON/SARIF 2.1.0 reports with:
 
 ## Status
 
-**Research phase complete.** The architect brief in [`brief/pq-discovery_brief.json`](brief/pq-discovery_brief.json) contains the full implementation spec produced by the [Think Tank Swarm](https://github.com/michaelwinczuk/think-tank-swarm) — 68 SMEs across 14 knowledge clusters.
+**Research phase complete.** The architect brief  contains the full implementation spec produced by the [Think Tank Swarm](https://github.com/michaelwinczuk/think-tank-swarm) — 68 SMEs across 14 knowledge clusters.
 
 Ready for architect build.
 
