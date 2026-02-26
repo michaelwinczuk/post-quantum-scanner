@@ -1,0 +1,31 @@
+[package]
+name = "pq-discovery"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+description = "Post-quantum cryptography vulnerability scanner — detects quantum-vulnerable primitives and recommends NIST PQC replacements"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/michaelwinczuk/post-quantum-scanner"
+keywords = ["post-quantum", "cryptography", "security", "scanner", "NIST"]
+categories = ["command-line-utilities", "cryptography"]
+
+[[bin]]
+name = "pq-discovery"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+regex = "1"
+rayon = "1"
+ignore = "0.4"
+chrono = { version = "0.4", features = ["serde"] }
+base64 = "0.22"
+sha2 = "0.10"
+hex = "0.4"
+colored = "2"
+anyhow = "1"
+
+[dev-dependencies]
+tempfile = "3"
